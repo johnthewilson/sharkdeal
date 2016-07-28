@@ -1,0 +1,84 @@
+<div class="jumbotron">
+  <div ng-class="{'hide': sharkVm.exists[100] == undefined}" class="deals">
+    <h1>100</h1>
+    <div class="shark" ng-repeat="deal in sharkVm.deals | filter:sharkVm.rating(100)">
+      <img class="deal-image" ng-src="{{deal.thumb}}">
+      <p class="title">{{ deal.title }} </p>
+     <p class="score"> {{ deal.metacriticScore }}</p>
+    </div>
+  </div>
+  <div ng-class="{'hide': sharkVm.exists[90] == undefined}" class="deals">
+    <h1>90</h1>
+    <div class="shark" ng-repeat="deal in sharkVm.deals | filter:sharkVm.rating(90)">
+      <img class="deal-image" ng-src="{{deal.thumb}}">
+      <p class="title">{{ deal.title }} </p>
+      <p class="score"> {{ deal.metacriticScore }}</p>
+    </div>
+  </div>
+  <div ng-class="{'hide': sharkVm.exists[80] == undefined}" class="deals">
+    <h1 >80</h1>
+    <div class="shark" ng-repeat="deal in sharkVm.deals | filter:sharkVm.rating(80)">
+      <img class="deal-image" ng-src="{{deal.thumb}}">
+      <p class="title">{{ deal.title }} </p>
+      <p class="score"> {{ deal.metacriticScore }}</p>
+    </div>
+  </div>
+  <div ng-class="{'hide': sharkVm.exists[70] == undefined}" class="deals">
+    <h1>70</h1>
+    <div class="shark" ng-repeat="deal in sharkVm.deals | filter:sharkVm.rating(70)">
+      <img class="deal-image" ng-src="{{deal.thumb}}">
+      <p class="title">{{ deal.title }} </p>
+      <p class="score">{{ deal.metacriticScore }}</p>
+    </div>
+  </div>
+  <div ng-class="{'hide': sharkVm.exists[60] == undefined}" class="deals">
+    <h1>60</h1>
+    <div class="shark" ng-repeat="deal in sharkVm.deals | filter:sharkVm.rating(60)">
+      <img class="deal-image" ng-src="{{deal.thumb}}">
+      <p class="title">{{ deal.title }} </p>
+      <p class="score"> {{ deal.metacriticScore }}</p>
+    </div>
+  </div>
+  <div ng-class="{'hide': sharkVm.exists[50] == undefined}" class="deals">
+    <h1>50</h1>
+    <div class="shark" ng-repeat="deal in sharkVm.deals | filter:sharkVm.rating(50)">
+      <img class="deal-image" ng-src="{{deal.thumb}}">
+      <p class="title">{{ deal.title }} </p>
+      <p class="score"> {{ deal.metacriticScore }}</p>
+    </div>
+  </div>
+  <div ng-class="{'hide': sharkVm.exists[40] == undefined}" class="deals">
+    <h1>40</h1>
+    <div class="shark" ng-repeat="deal in sharkVm.deals | filter:sharkVm.rating(40)">
+      <img class="deal-image" ng-src="{{deal.thumb}}">
+      <p class="title">{{ deal.title }} </p>
+      <p class="score"> {{ deal.metacriticScore }}</p>
+    </div>
+  </div>
+  <div ng-class="{'hide': sharkVm.exists[30] == undefined}" class="deals">
+    <h1>30</h1>
+    <div class="shark" ng-repeat="deal in sharkVm.deals | filter:sharkVm.rating(30)">
+      <img class="deal-image" ng-src="{{deal.thumb}}">
+      <p class="title">{{ deal.title }} </p>
+      <p class="score"> {{ deal.metacriticScore }}</p>
+    </div>
+  </div>
+  <div ng-class="{'hide': sharkVm.exists[20] == undefined}" class="deals">
+    <h1>20</h1>
+    <div class="shark" ng-repeat="deal in sharkVm.deals | filter:sharkVm.rating(20)">
+      <img class="deal-image" ng-src="{{deal.thumb}}">
+      <p class="title">{{ deal.title }} </p>
+      <p class="score">{{ deal.metacriticScore }}</p>
+    </div>
+  </div>
+  <div ng-class="{'hide': sharkVm.exists[10] == undefined}" class="deals">
+    <h1>10</h1>
+    <div class="shark" ng-repeat="deal in sharkVm.deals | filter:sharkVm.rating(10)">
+      <img class="deal-image" ng-src="{{deal.thumb}}">
+      <p class="title">{{ deal.title }} </p>
+      <p class="score"> {{ deal.metacriticScore }}</p>
+    </div>
+  </div>
+
+
+</div>
